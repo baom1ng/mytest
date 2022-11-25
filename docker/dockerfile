@@ -1,0 +1,4 @@
+FROM openjdk:8u292-jdk
+COPY mytest.jar /usr/local/
+WORKDIR /usr/local
+CMD java -jar mytest.jar
