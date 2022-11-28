@@ -1,7 +1,7 @@
 pipeline{
-    //制定构建的节点
+	
     agent any
-    //声明全局变量
+	
     environment {
 		harborRepo = 'repo'
         harborUser = 'admin'
